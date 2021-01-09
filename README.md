@@ -2,7 +2,7 @@
 
 This project is developed using react. Shows dynamicly created Stopwatches with start, pause, stop and remove functionality.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
