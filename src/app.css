@@ -1,0 +1,47 @@
+.stopwatch-container {
+    
+}
+
+.stopwatch-container .stopwatch-container__heading {
+    max-width: 300px;
+    border-bottom: 3px dashed deeppink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stopwatch-container .stopwatch-container__heading p {
+    font-size: 1.875em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.stopwatch-container .stopwatch-container__heading button {
+    padding: 7px 9px;
+    font-size: 0.75em;
+    font-weight: 600;
+    outline: none;
+    border-radius: 4px;
+    background-color: deeppink;
+    color: white;
+    border: 1px solid deeppink;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #aaa;
+    transition: 0.2s;
+}
+
+.stopwatch-container .stopwatch-container__heading button:active {
+    transform: scale(0.98);
+    box-shadow: 0px 0px 8px #aaa;
+}
+
+.stopwatch-container .stopwatch-container__body .stopwatch-list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.stopwatch-container .stopwatch-container__body .stopwatch-list div{
+    min-width: 20%;
+}
